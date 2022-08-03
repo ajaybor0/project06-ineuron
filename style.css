@@ -54,6 +54,24 @@ html {
 	padding: 6% 6%;
 }
 
+li {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+li::before {
+	content: '\00b7';
+	font-size: 100px;
+	line-height: 40px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+
+li:first-child {
+	margin-bottom: -25px;
+}
+
 #monstera {
 	font-size: 84px;
 }
